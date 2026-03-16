@@ -1,12 +1,18 @@
-# Obsidian Kanban Plugin - Fork with Escape Key Save Behavior
+# Obsidian Kanban Plugin - Maintained Version
 
-**This is a fork of the original Obsidian Kanban plugin with modified Escape key behavior.**
+**This is a maintained version of the Obsidian Kanban plugin with improved Escape key behavior and ongoing updates.**
 
 ---
 
-## Changes in This Fork
+## Why This Fork?
 
-This fork modifies the Escape key behavior to **save edits instead of canceling them**:
+The original Obsidian Kanban plugin is looking for new maintainers. This fork provides a **actively maintained version** with:
+
+### Key Improvements:
+1. **Escape Key Save Behavior**: Pressing Escape now saves edits instead of canceling them
+2. **Click-Outside Save**: Clicking outside forms now saves changes instead of discarding them
+3. **Ongoing Maintenance**: Regular updates and bug fixes
+4. **Enhanced Documentation**: Comprehensive guides and improvement suggestions
 
 ### Modified Behavior:
 - **Escape key**: Now saves changes instead of canceling them
@@ -19,34 +25,72 @@ This fork modifies the Escape key behavior to **save edits instead of canceling 
 - `src/components/Lane/LaneTitle.tsx` - Escape key saves lane title edits
 - `src/components/Lane/LaneForm.tsx` - Escape key creates new lane
 
-### Documentation:
-- `ESCAPE_KEY_CHANGES.md` - Detailed documentation of all changes
-- `AGENTS.md` - Project documentation with build commands
-
 ---
-
-## Original Plugin Documentation
-
-Create markdown-backed Kanban boards in [Obsidian](https://obsidian.md/)
-
-- [Bugs, Issues, & Feature Requests](https://github.com/mgmeyers/obsidian-kanban/issues)
-- [Development Roadmap](https://github.com/mgmeyers/obsidian-kanban/projects/1)
-
-![Screen Shot 2021-09-16 at 12.58.22 PM.png](https://github.com/mgmeyers/obsidian-kanban/blob/main/docs/Assets/Screen%20Shot%202021-09-16%20at%2012.58.22%20PM.png)
-
-![Screen Shot 2021-09-16 at 1.10.38 PM.png](https://github.com/mgmeyers/obsidian-kanban/blob/main/docs/Assets/Screen%20Shot%202021-09-16%20at%201.10.38%20PM.png)
 
 ## Documentation
 
-Find the plugin documentation here: [Obsidian Kanban Plugin Documentation](https://publish.obsidian.md/kanban/)
+### Fork-Specific Documentation:
+- `ESCAPE_KEY_CHANGES.md` - Detailed documentation of all changes
+- `AGENTS.md` - Project documentation with build commands and code style
+- `IMPROVEMENTS.md` - Code analysis and suggestions for further improvements
 
-## Building from Source
+### Original Plugin Documentation:
+- [Obsidian Kanban Plugin Documentation](https://publish.obsidian.md/kanban/)
+- [Original Repository](https://github.com/mgmeyers/obsidian-kanban)
 
+---
+
+## Installation
+
+### For Users:
+1. Download the latest release from the [Releases page](https://github.com/alephtex/obsidian-kanban-fork/releases)
+2. Extract the files to your Obsidian plugins folder: `.obsidian/plugins/obsidian-kanban-fork/`
+3. Enable the plugin in Obsidian settings
+
+### For Developers:
 1. Clone this repository
 2. Install dependencies: `npm install` or `yarn install`
 3. Build the plugin: `npm run build`
 4. Copy `main.js` to your Obsidian plugins folder
 
+---
+
+## Features
+
+### Core Features (from original plugin):
+- Create markdown-backed Kanban boards in Obsidian
+- Drag and drop cards between lanes
+- Add dates, tags, and metadata to cards
+- Archive completed cards
+- WIP (Work In Progress) limits
+- Customizable board layouts
+
+### Enhanced Features (this fork):
+- **Improved Escape Key Behavior**: Save instead of cancel
+- **Better Error Handling**: More robust input validation
+- **Enhanced Documentation**: Comprehensive guides and examples
+- **Ongoing Maintenance**: Regular updates and bug fixes
+
+---
+
+## Contributing
+
+Contributions are welcome! Please read [AGENTS.md](AGENTS.md) for:
+- Code style guidelines
+- Build and test commands
+- Development best practices
+- Negative Space Programming patterns
+
+---
+
 ## License
 
-MIT License - See LICENSE.md for details
+MIT License - See [LICENSE.md](LICENSE.md) for details
+
+---
+
+## Acknowledgments
+
+- Original plugin by [mgmeyers](https://github.com/mgmeyers)
+- Based on the Obsidian plugin template
+- Built with TypeScript, Preact, and the Obsidian API
