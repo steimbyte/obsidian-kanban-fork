@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/steimerbyte)
+
 # Obsidian Kanban Plugin - Maintained Version
 
 **This is a maintained version of the Obsidian Kanban plugin with improved Escape key behavior and ongoing updates.**
