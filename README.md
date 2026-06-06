@@ -100,3 +100,9 @@ MIT License - See [LICENSE.md](LICENSE.md) for details
 - Original plugin by [mgmeyers](https://github.com/mgmeyers)
 - Based on the Obsidian plugin template
 - Built with TypeScript, Preact, and the Obsidian API
+
+---
+
+## Hinweis zur KI-Unterstützung
+
+Bei der Entwicklung dieses Projekts wurden teilweise oder vollständig KI-gestützte Tools und Technologien eingesetzt.
